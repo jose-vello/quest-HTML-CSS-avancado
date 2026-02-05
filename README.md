@@ -19,12 +19,13 @@ O presente projeto consiste na resolução do Exercício 01 do site Frontend Men
 <div align="center">
 
   ### Mobile 📱  
-  <img src="../gif/landing-page-huddle-mobile.gif" alt="gif-reposividade-mobile" height="425">
+  <img src="https://github.com/user-attachments/assets/4779e651-ed47-4ba8-aa4b-3c0ced7b6188" alt="gif-reposividade-mobile" height="425">
 
   <br>
   
   ### Desktop 💻
-  <img src="../gif/landing-page-huddle-desktop.gif" alt="gif-tela-desktop" height="425">
+  <img src="https://github.com/user-attachments/assets/97c14b6f-24e8-47ec-9f03-89575365f8ef" alt="gif-tela-desktop" height="425">
+
 </div>
 
 
