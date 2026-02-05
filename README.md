@@ -4,7 +4,7 @@
 
 
 
-## 💻 Projeto
+##  Projeto
 
 O presente projeto consiste na resolução do Exercício 01 do site Frontend Mentor, tendo por objetivo o treinamento em HTML e CSS, com a utilização do layout baseado em display: flex.
 
