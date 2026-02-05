@@ -1,10 +1,16 @@
 @media(max-width: 920px) {
+
     body {
-        background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat center center;
+        background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat center;
         background-size: cover;
-        height: 100vh;
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header {
+        display: flex;
         justify-content: center;
         align-items: center;
     }
@@ -15,18 +21,24 @@
         justify-content: center;
         align-items: center;
         text-align: center;
-        height: 100vh;
+        width: auto;
+        padding: 30px 30px 0px 30px;
+    }
+
+    main img {
+        width: 400px;
     }
 
     main .sobre {
-        padding: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     footer {
         display: flex;
         justify-content: center;
-        align-items: center;
-        padding: 0px 0px 0px 100px;
+        align-items: center;        
     }
 }
 
@@ -34,15 +46,16 @@
     body {
         background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat center center;
         background-size: cover;
-        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    main .sobre {
-        padding: 80px;
+    .header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     main {
@@ -50,27 +63,28 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        text-align: center;
-        height: 100vh;
+        text-align: center;        
         width: 100%;
+        padding-top: 0;
     }
 
     footer {
-        margin-top: 50px;
-        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
+
+
+
 @media(max-width: 425px) {
     body {
-        background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat;
+        background: hsl(257, 40%, 49%) url('../images/bg-mobile.svg') no-repeat center;
         background-size: cover;
-        height: 100vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-left: 190px;
-        margin-top: 200px;
     }
 }

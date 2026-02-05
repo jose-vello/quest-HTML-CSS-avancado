@@ -1,27 +1,38 @@
 body {
-    background: hsl(257, 40%, 49%) url('../images/bg-desktop.svg') no-repeat center center;
-    background-size: cover;
-    height: 100vh;
+    background: hsl(257, 40%, 49%) url('../images/bg-desktop.svg') no-repeat left top;
+    background-size: contain;
+    min-height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1440px;
+    margin: auto
 }
 
 .header {
-    min-height: 75px;
+    width: 100%;
+    min-height: auto;
 }
 
 main {
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 50px 70px 0;
-    max-width: 1440px;
+    width: 100%;
+    gap: 50px;
+}
 
+.main img{
+    
+    display: block;
 }
 
 main .sobre {
     display: flex;
     flex-direction: column;
-    padding: 50px 20px;
+    
     gap: 30px;
 }
 
@@ -30,7 +41,7 @@ main .sobre h1 {
     font-size: 40px;
     color: white;
     font-weight: 600;
-    margin-right: 10px;
+    letter-spacing: 1px;
 }
 
 main .sobre p {
@@ -44,11 +55,13 @@ main .sobre p {
 
 main .sobre .btn-register {
     color: hsl(257, 40%, 49%);
+    background-color: white;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    text-align: center;
     width: 200px;
-    height: 50px;
+    padding: 15px;
     border-radius: 50px;
     box-shadow: 0 0 15px 5px rgba(0, 2, 3, 0.336);
     border: none;
@@ -60,26 +73,24 @@ main .sobre .btn-register:hover {
     background-color: hsl(300, 69%, 71%);
 }
 
-footer .lista-redes {
+footer{
     display: flex;
     justify-content: flex-end;
-    font-size: 20px;
-    gap: 20px;
-    margin-top: 30px;
-    margin-right: 100px;
+    margin-right: px;
+    gap: 15px;
+    padding: 20px;    
 }
 
-footer .lista-redes li a i {
+footer  a {    
     color: white;
     border: 1px solid white;
     border-radius: 50%;
-    padding: 10px;
-    width: 40px;
-    height: 40px;
+    font-size: 20px;
+    padding: 10px;  
     transition: 0.3s ease-in-out;
 }
 
-footer .lista-redes li a i:hover {
+footer a:hover {
     color: hsl(300, 69%, 71%);
     border-color: hsl(300, 69%, 71%);
 }
